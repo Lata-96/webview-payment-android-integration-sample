@@ -1,4 +1,4 @@
-package com.lyranetwork.sampleandroidwebview.payzen
+package com.lyranetwork.sampleandroidwebview.payment
 
 import android.annotation.TargetApi
 import android.app.Activity
@@ -21,7 +21,7 @@ import android.webkit.WebViewClient
 import android.widget.FrameLayout
 import android.widget.ProgressBar
 import com.lyranetwork.sampleandroidwebview.R
-import com.lyranetwork.sampleandroidwebview.payzen.nfc.NFCManagement
+import com.lyranetwork.sampleandroidwebview.payment.nfc.NFCManagement
 import org.json.JSONObject
 
 
@@ -115,7 +115,7 @@ class PaymentActivity: AppCompatActivity() {
      * When back button is pressed
      */
     override fun onBackPressed() {
-        returnResult(false, PayZenPaymentErrorCode.PAYMENT_CANCELLED_ERROR,"Payment cancelled by user")
+        returnResult(false, PaymentErrorCode.PAYMENT_CANCELLED_ERROR,"Payment cancelled by user")
     }
 
     /**
@@ -194,7 +194,7 @@ class PaymentActivity: AppCompatActivity() {
             paymentResult.put("cause", cause)
         }
         intentResult.putExtra("paymentResult", paymentResult.toString())
-        setResult(PayZenPayment.WEBVIEW_ACTIVITY_CODE_RESULT, intentResult)
+        setResult(PaymentProvider.WEBVIEW_ACTIVITY_CODE_RESULT, intentResult)
         finish()
     }
 
@@ -231,13 +231,13 @@ class PaymentActivity: AppCompatActivity() {
                 returnResult(true, null,null)
             }
             result.contains(".cancel/") -> {
-                returnResult(false, PayZenPaymentErrorCode.PAYMENT_CANCELLED_ERROR,"Payment cancelled by user")
+                returnResult(false, PaymentErrorCode.PAYMENT_CANCELLED_ERROR,"Payment cancelled by user")
             }
             result.contains(".refused/") -> {
-                returnResult(false, PayZenPaymentErrorCode.PAYMENT_REFUSED_ERROR,"Payment refused")
+                returnResult(false, PaymentErrorCode.PAYMENT_REFUSED_ERROR,"Payment refused")
             }
             else -> {
-                returnResult(false, PayZenPaymentErrorCode.UNKNOWN_ERROR, "Unknown error")
+                returnResult(false, PaymentErrorCode.UNKNOWN_ERROR, "Unknown error")
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.lyranetwork.sampleandroidwebview.payzen.nfc
+package com.lyranetwork.sampleandroidwebview.payment.nfc
 
 import android.app.Activity
 import android.content.Intent

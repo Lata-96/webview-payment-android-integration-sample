@@ -1,4 +1,4 @@
-package com.lyranetwork.sampleandroidwebview.payzen.nfc
+package com.lyranetwork.sampleandroidwebview.payment.nfc
 
 import android.nfc.tech.IsoDep
 import com.github.devnied.emvnfccard.enums.SwEnum

@@ -24,10 +24,10 @@
         </activity>
 
         <activity
-            android:name=".payzen.PaymentActivity" />
+            android:name=".payment.PaymentActivity" />
 
         <activity
-            android:name=".payzen.nfc.NFCActivity" />
+            android:name=".payment.nfc.NFCActivity" />
     </application>
 
 
