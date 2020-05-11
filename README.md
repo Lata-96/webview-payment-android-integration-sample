@@ -26,7 +26,7 @@ To be able to do some payments, three elements are required:
 <p align="center">
 	<img width="175" src="sampleandroidwebview1.jpg"/>
 	<img width="175" src="sampleandroidwebview_camera_1.jpg"/>
-	<img width="175" src="sampleandroidwebview_camera_2.png"/>
+	<img width="200" src="sampleandroidwebview_camera_2.png"/>
 	<img width="175" src="sampleandroidwebview_camera_3.jpg"/>
 	<img width="175" src="sampleandroidwebview3.jpg"/>
 </p>
