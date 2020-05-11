@@ -24,9 +24,9 @@ To be able to do some payments, two elements are required::
 
 
 <p align="center">
-	<img src="sampleandroidwebview1.png"/>
-	<img src="sampleandroidwebview2.png"/>
-	<img src="sampleandroidwebview3.png"/>
+	<img src="sampleandroidwebview1.jpg"/>
+	<img src="sampleandroidwebview2.jpg"/>
+	<img src="sampleandroidwebview3.jpg"/>
 </p>
 
 <span id="getting_started"></span>
