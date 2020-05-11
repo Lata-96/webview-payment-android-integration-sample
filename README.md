@@ -22,6 +22,13 @@ To be able to do some payments, two elements are required::
 * A mobile app with a webview mobile payment integration: this integration is explained with this repository.
 * A merchant server that executes payments transactions with the payment servers: [merchant server demonstration](https://github.com/lyra/webview-payment-sparkjava-integration-sample)
 
+
+<p align="center">
+	<img src="sampleandroidwebview1.png"/>
+	<img src="sampleandroidwebview2.png"/>
+	<img src="sampleandroidwebview3.png"/>
+</p>
+
 <span id="getting_started"></span>
 ## Getting started
 
@@ -56,10 +63,6 @@ To be able to do some payments, two elements are required::
     <activity
         android:name=".payment.PaymentActivity" />
     ```
-    
-	<p align="center">
-	  <img src="embedded_activity.png"/>
-	</p>
     
 4. In your activity where you want execute a payment, add an inheritance of this activity to `AbstractPaymentActivity`.
 
