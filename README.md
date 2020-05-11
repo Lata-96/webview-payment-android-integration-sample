@@ -23,6 +23,14 @@ To be able to do some payments, two elements are required:
 * A mobile app with a webview mobile payment integration: this integration is explained with this repository.
 * A merchant server that executes payments transactions with the payment servers: [merchant server demonstration](https://github.com/lyra/webview-payment-sparkjava-integration-sample)
 
+<p align="center">
+	<img width="200" src="sampleandroidwebview1.jpg"/>
+	<img width="200" src="sampleandroidwebview_nfc_1.jpg"/>
+	<img width="200" src="sampleandroidwebview_nfc_2.jpg"/>
+	<img width="200" src="sampleandroidwebview_nfc_3.jpg"/>
+	<img width="200" src="sampleandroidwebview3.jpg"/>
+</p>
+
 <span id="getting_started"></span>
 ## Getting started
 
@@ -64,11 +72,7 @@ To be able to do some payments, two elements are required:
 	<activity
         android:name=".payment.nfc.NFCActivity" />
     ```
-    
-	<p align="center">
-	  <img src="embedded_activity.png"/>
-	</p>
-    
+
 4. Add the following dependencies into your `build.gradle` of `app` folder
     ```gradle
         implementation 'com.github.devnied.emvnfccard:library:2.1.1'
