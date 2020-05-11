@@ -23,6 +23,14 @@ To be able to do some payments, three elements are required:
 * A mobile app with a webview mobile payment integration: this integration is explained with this repository
 * A merchant server that executes payments transactions with the payment servers: [merchant server demonstration](https://github.com/lyra/webview-payment-sparkjava-integration-sample)
 
+<p align="center">
+	<img width="175" src="sampleandroidwebview1.jpg"/>
+	<img width="175" src="sampleandroidwebview_camera_1.jpg"/>
+	<img width="175" src="sampleandroidwebview_camera_2.jpg"/>
+	<img width="175" src="sampleandroidwebview_camera_3.jpg"/>
+	<img width="175" src="sampleandroidwebview3.jpg"/>
+</p>
+
 <span id="getting_started"></span>
 ## Getting started
 
@@ -59,11 +67,8 @@ To be able to do some payments, three elements are required:
     <activity
         android:name=".payment.PaymentActivity" />
     ```
-    
-	<p align="center">
-	  <img src="embedded_activity.png"/>
-	</p>
-    
+
+
 4. Add the following dependencies into your `build.gradle` of `app` folder
     ```gradle
         implementation 'io.card:android-sdk:5.5.1'
