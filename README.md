@@ -24,11 +24,11 @@ To be able to do some payments, two elements are required:
 * A merchant server that executes payments transactions with the payment servers: [merchant server demonstration](https://github.com/lyra/webview-payment-sparkjava-integration-sample)
 
 <p align="center">
-	<img width="200" src="sampleandroidwebview1.jpg"/>
-	<img width="200" src="sampleandroidwebview_nfc_1.jpg"/>
-	<img width="200" src="sampleandroidwebview_nfc_2.jpg"/>
-	<img width="200" src="sampleandroidwebview_nfc_3.jpg"/>
-	<img width="200" src="sampleandroidwebview3.jpg"/>
+	<img width="175" src="sampleandroidwebview1.jpg"/>
+	<img width="175" src="sampleandroidwebview_nfc_1.jpg"/>
+	<img width="175" src="sampleandroidwebview_nfc_2.jpg"/>
+	<img width="175" src="sampleandroidwebview_nfc_3.jpg"/>
+	<img width="175" src="sampleandroidwebview3.jpg"/>
 </p>
 
 <span id="getting_started"></span>
