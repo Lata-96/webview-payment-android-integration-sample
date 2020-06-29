@@ -22,12 +22,6 @@ To be able to do some payments, two elements are required::
 * A mobile app with a webview mobile payment integration: this integration is explained with this repository.
 * A merchant server that executes payments transactions with the payment servers: [merchant server demonstration](https://github.com/lyra/webview-payment-sparkjava-integration-sample)
 
-<p align="center">
-	<img width="200" src="sampleandroidwebview1.jpg"/>
-	<img width="200" src="sampleandroidwebview2.jpg"/>
-	<img width="200" src="sampleandroidwebview3.jpg"/>
-</p>
-
 <span id="getting_started"></span>
 ## Getting started
 
